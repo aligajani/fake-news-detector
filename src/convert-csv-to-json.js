@@ -2,7 +2,7 @@ var fs = require('fs');
 var Converter = require("csvtojson").Converter;
 
 var converter = new Converter({});
-converter.fromFile("fake-news-source.csv", function (error, result) {
+converter.fromFile("./input/fake-news-source.csv", function (error, result) {
 
     var collection = [];
     const totalItems = result.length;
@@ -31,7 +31,7 @@ converter.fromFile("fake-news-source.csv", function (error, result) {
 
 
 function writeToFile(data) {
-    fs.writeFile("fake-news-source.json", data, "utf8", function (err) {
+    fs.writeFile("./output/fake-news-source.json", data, "utf8", function (err) {
         if (err) return console.log(err);
         console.log("The file was saved!");
     });
