@@ -1,0 +1,23 @@
+{
+  "name": "fake-news-detector",
+  "version": "1.0.0",
+  "description": "A simple JSON collection of Fake News Websites and a Firebase REST API",
+  "main": "convert-csv-to-json.js",
+  "dependencies": {
+    "csvtojson": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aligajani/fake-news-detector.git"
+  },
+  "author": "Ali Gajani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aligajani/fake-news-detector/issues"
+  },
+  "homepage": "https://github.com/aligajani/fake-news-detector#readme"
+}
