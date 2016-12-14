@@ -26,6 +26,21 @@ The possibilities are endless. I am putting this on Github in a hope that we mig
         * Which means, a UI for public moderation to prevent trolling becomes necessary
 
 For submitting your ideas, contact me on [Facebook](https://www.facebook.com/ali.gajani)
+
+### Output sample
+
+```
+{
+	"siteTitle": "CollectiveEvolution",
+	"siteCategory": "conspiracy",
+	"siteUrl": "http://www.collective-evolution.com/",
+	"siteGoogleHits": 2,
+	"siteFacebookLikes": 4,
+	"siteTwitterFollowers": 61600,
+	"sitePoliticalAlignment": "",
+	"siteNotes": ""
+}
+```
     
 
 

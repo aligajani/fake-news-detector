@@ -26,6 +26,7 @@ converter.fromFile("./input/fake-news-source.csv", function (error, result) {
         }
     }
     var clean = collection.splice(1,totalItems);
+    console.log(collection.length);
     writeToFile(JSON.stringify(clean));
 });
 
