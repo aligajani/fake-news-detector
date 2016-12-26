@@ -6,6 +6,9 @@ A great use of ES6 and functors to process data with 4 lines.
 
 https://jsfiddle.net/aligajani/zo00dsox/
 
+
+### Motive
+
 A node script that uses data from [this](https://docs.google.com/spreadsheets/d/1xDDmbr54qzzG8wUrRdxQl_C1dixJSIYqQUaXVZBqsJs) Google sheet, preprocesses it for cleanup and dumps it to a JSON file. What use will this be, you might ask? Well, I think this is a good starting point for developers to build apps/tools that could benefit from a fake news detection facility, or for data analysis purposes.
 
 The possibilities are endless. I am putting this on Github in a hope that we might be able to improve upon this with more nice things, such as feeding this data this data into Firebase endpoint and enable REST API access. Please modify this code however you wish. Damage might have been done, but we can do something.
